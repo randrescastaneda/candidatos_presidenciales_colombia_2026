@@ -1118,6 +1118,19 @@
     "claim_ids": "src-20260605-ivan-no-constituyente-elpais-claim-1"
   },
   {
+    "source_analysis_id": "source-analysis-src-20260607-abelardo-subsidios-vanguardia",
+    "source_id": "src-20260607-abelardo-subsidios-vanguardia",
+    "candidate_id": "abelardo-de-la-espriella",
+    "topic_id": "pobreza-desigualdad",
+    "substantive_summary": "La fuente Vanguardia aporta evidencia sobre Pobreza, desigualdad y protección social. En términos sustantivos, registra: Mantendria subsidios focalizados para poblacion vulnerable y subiria Colombia Mayor hasta 400.000 pesos, sin desmontar matricula cero ni el Sisbén..",
+    "policy_positions": "Mantendria subsidios focalizados para poblacion vulnerable y subiria Colombia Mayor hasta 400.000 pesos, sin desmontar matricula cero ni el Sisbén.",
+    "ideology_signals": "rol económico del Estado",
+    "chronology_summary": "Mantendria subsidios focalizados para poblacion vulnerable y subiria Colombia Mayor hasta 400.000 pesos, sin desmontar matricula cero ni el Sisbén.",
+    "evidence_state": "trazable_con_cautela",
+    "source_ids": "src-20260607-abelardo-subsidios-vanguardia",
+    "claim_ids": "src-20260607-abelardo-subsidios-vanguardia-claim-1"
+  },
+  {
     "source_analysis_id": "source-analysis-src-manual-05f40435",
     "source_id": "src-manual-05f40435",
     "candidate_id": "claudia-lopez",
