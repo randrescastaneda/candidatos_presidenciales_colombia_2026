@@ -476,6 +476,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-429293f4",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/la-defensa-nacional-en-la-campana-electoral/",
+    "title": "LA DEFENSA NACIONAL EN LA CAMPAÑA ELECTORAL",
+    "published_at": "2026-04-19",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-27cc445a",
     "candidate_id": null,
     "source_name": "Pares Com Co",
@@ -616,6 +630,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-3b4d2a9a",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/la-campana-presidencial-tres-modelos-seguridad-disputa/",
+    "title": "La campaña presidencial: tres modelos de seguridad en disputa",
+    "published_at": "2026-04-12",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-003afb5f",
     "candidate_id": null,
     "source_name": "Semana Com",
@@ -672,6 +700,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-7fd33c64",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/los-candidatos-la-economia-se-diferencian-propuestas/",
+    "title": "Los candidatos y la economía: ¿en qué se diferencian sus propuestas?",
+    "published_at": "2026-03-29",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-7677aff5",
     "candidate_id": null,
     "source_name": "Lapatria Com",
@@ -686,6 +728,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-7cf5630b",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/anatomia-las-candidaturas-presidenciales/",
+    "title": "Anatomía de las candidaturas presidenciales",
+    "published_at": "2026-03-22",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-37677684",
     "candidate_id": null,
     "source_name": "Portafolio Co",
@@ -694,20 +750,6 @@
     "url": "https://www.portafolio.co/economia/gobierno/elecciones-presidenciales-2026-cuando-sera-el-sorteo-para-definir-como-quedara-el-tarjeton-de-la-primera-vuelta-490542",
     "title": "Elecciones presidenciales 2026 en Colombia: fecha del sorteo del tarjetón",
     "published_at": "2026-03-21",
-    "status": "pending_classification",
-    "status_reason": "validated_by_http|no_match",
-    "candidate_confidence": 0,
-    "source_files": "data/added_manually/chatgpt_pro.md"
-  },
-  {
-    "entry_id": "manual-2dbdb863",
-    "candidate_id": null,
-    "source_name": "Elpais Com",
-    "source_tier": "established-media",
-    "source_type": "topic-page",
-    "url": "https://elpais.com/america-colombia/elecciones-presidenciales/2026-03-16/el-camino-a-las-elecciones-presidenciales-colombia-2026-en-vivo.html",
-    "title": "Las campañas presidenciales en Colombia - 16 de marzo | Luis Carlos Reyes ya no será el compañero de fórmula de Mauricio Lizcano | Elecciones Presidenciales Colombia | EL PAÍS América Colombia",
-    "published_at": "2026-03-18",
     "status": "pending_classification",
     "status_reason": "validated_by_http|no_match",
     "candidate_confidence": 0,
