@@ -238,6 +238,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-5784e426",
+    "candidate_id": null,
+    "source_name": "Magdalenanoticias Co",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://magdalenanoticias.co/caicedo-le-reafirma-a-petro-propuesta-de-un-frente-unido-para-impedir-el-regreso-de-la-derecha-a-la-presidencia/",
+    "title": "Caicedo le reafirma a Petro propuesta de un Frente Unido para impedir el regreso de la derecha a la Presidencia - Magdalena Noticias",
+    "published_at": "2025-12-02",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|ambiguous_match",
+    "candidate_confidence": 0.2,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-7a380425",
     "candidate_id": null,
     "source_name": "Wradio Com Co",
@@ -300,7 +314,7 @@
     "source_tier": "established-media",
     "source_type": "topic-page",
     "url": "https://laopinion.co:443/elecciones-2026/candidatos-presidenciales-expusieron-propuestas-ante-gobernadores-sin-cepeda",
-    "title": "Candidatos Presidenciales Expusieron Propuestas Ante Gobernadores Sin Cepeda",
+    "title": "Candidatos presidenciales expusieron propuestas ante gobernadores, sin Cepeda",
     "published_at": null,
     "status": "pending_classification",
     "status_reason": "validated_by_http|ambiguous_match",

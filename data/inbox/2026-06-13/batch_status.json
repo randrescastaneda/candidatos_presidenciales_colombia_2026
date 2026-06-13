@@ -1,0 +1,8 @@
+{
+  "status": "no_findings",
+  "updated_at": "2026-06-13T05:48:00-04:00",
+  "summary": "Lote diario resuelto sin nuevas promociones al intake formal y con 4 decisiones registradas en la bitacora de revision.",
+  "notes": "La ventana 2026-06-12/2026-06-13 dejo dos contextos utiles y ningun hallazgo con umbral limpio de intake formal. Se incorporo como contexto la nota de Infobae sobre Clara Lopez como nueva vocera economica de la campana de Ivan Cepeda, por fijar respeto a la autonomia del Banco de la Republica, ajuste con bisturi y mayor recaudo via Dian y control de evasion. Tambien se incorporo como contexto la pieza de EL PAIS sobre Abelardo de la Espriella matizando sus propuestas milagro en seguridad, credito hipotecario y fracking. Se descartaron como intake adicional la nueva sintesis de EL PAIS sobre el plan moderado de Cepeda, por duplicar el PDF ya incorporado el 2026-06-12, y la nota de Infobae sobre la mega carcel en Sumapaz, por ser una reaccion indirecta a una hoja de ruta local y no una definicion nueva de campana. En chequeos complementarios no aparecio una fuente autonoma fresca y suficientemente densa para Paloma Valencia, Claudia Lopez, Sergio Fajardo ni Luis Gilberto Murillo.",
+  "checked_window_start": "2026-06-12T05:51:00-04:00",
+  "checked_window_end": "2026-06-13T05:48:00-04:00"
+}

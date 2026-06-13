@@ -1,7 +1,7 @@
 [
   {
-    "updated_at": "2026-06-12 10:00:11 UTC",
-    "latest_event_date": "2026-06-12",
+    "updated_at": "2026-06-13 09:55:05 UTC",
+    "latest_event_date": "2026-06-13",
     "public_claim_count": 233,
     "public_source_count": 122,
     "public_source_analysis_count": 122,
@@ -14,7 +14,7 @@
     "source_text_file_count": 43,
     "manual_source_registry_count": 205,
     "promoted_manual_source_count": 37,
-    "pending_manual_source_count": 119,
+    "pending_manual_source_count": 120,
     "program_document_count": 6,
     "primary_program_document_count": 6,
     "source_packet_count": 122,
