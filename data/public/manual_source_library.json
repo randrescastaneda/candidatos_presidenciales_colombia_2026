@@ -196,6 +196,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-3f7a8a93",
+    "candidate_id": null,
+    "source_name": "Elpais Com",
+    "source_tier": "established-media",
+    "source_type": "article",
+    "url": "https://elpais.com/america-colombia/2026-04-18/valencia-fajardo-lopez-y-roy-coinciden-en-reactivar-el-sector-minero-energetico.html",
+    "title": "Valencia, Fajardo, López y Roy coinciden en reactivar el sector minero energético | Elecciones Presidenciales Colombia | EL PAÍS América Colombia",
+    "published_at": "2026-04-18",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|ambiguous_match",
+    "candidate_confidence": 0.4,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-5ec43518",
     "candidate_id": null,
     "source_name": "Bluradio Com",
@@ -434,6 +448,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-429293f4",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/la-defensa-nacional-en-la-campana-electoral/",
+    "title": "LA DEFENSA NACIONAL EN LA CAMPAÑA ELECTORAL",
+    "published_at": "2026-04-19",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-27cc445a",
     "candidate_id": null,
     "source_name": "Pares Com Co",
@@ -666,20 +694,6 @@
     "url": "https://www.lapatria.com/politica/conozca-las-razones-que-dan-para-votar-por-estos-candidatos-la-presidencia-tienen-fuerza",
     "title": "Conozca las razones que dan para votar por estos candidatos a la Presidencia: tienen fuerza en Caldas",
     "published_at": "2026-03-24",
-    "status": "pending_classification",
-    "status_reason": "validated_by_http|no_match",
-    "candidate_confidence": 0,
-    "source_files": "data/added_manually/chatgpt_pro.md"
-  },
-  {
-    "entry_id": "manual-7cf5630b",
-    "candidate_id": null,
-    "source_name": "Razonpublica Com",
-    "source_tier": "reference",
-    "source_type": "webpage",
-    "url": "https://razonpublica.com/anatomia-las-candidaturas-presidenciales/",
-    "title": "Anatomía de las candidaturas presidenciales",
-    "published_at": "2026-03-22",
     "status": "pending_classification",
     "status_reason": "validated_by_http|no_match",
     "candidate_confidence": 0,
@@ -1183,6 +1197,20 @@
     "source_type": "webpage",
     "url": "https://acentocolombia.com/match",
     "title": "Acento Colombia | Semanario de análisis para entender el país",
+    "published_at": null,
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
+    "entry_id": "manual-7cf5630b",
+    "candidate_id": null,
+    "source_name": "Razonpublica Com",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://razonpublica.com/anatomia-las-candidaturas-presidenciales/",
+    "title": "Anatomia Las Candidaturas Presidenciales",
     "published_at": null,
     "status": "pending_classification",
     "status_reason": "validated_by_http|no_match",
