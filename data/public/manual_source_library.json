@@ -238,6 +238,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-5784e426",
+    "candidate_id": null,
+    "source_name": "Magdalenanoticias Co",
+    "source_tier": "reference",
+    "source_type": "webpage",
+    "url": "https://magdalenanoticias.co/caicedo-le-reafirma-a-petro-propuesta-de-un-frente-unido-para-impedir-el-regreso-de-la-derecha-a-la-presidencia/",
+    "title": "Caicedo le reafirma a Petro propuesta de un Frente Unido para impedir el regreso de la derecha a la Presidencia - Magdalena Noticias",
+    "published_at": "2025-12-02",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|ambiguous_match",
+    "candidate_confidence": 0.2,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-7a380425",
     "candidate_id": null,
     "source_name": "Wradio Com Co",
@@ -798,6 +812,20 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
+    "entry_id": "manual-033fe94f",
+    "candidate_id": null,
+    "source_name": "Transparenciacolombia Org Co",
+    "source_tier": "institutional",
+    "source_type": "institutional-page",
+    "url": "https://transparenciacolombia.org.co/66-porciento-de-las-candidaturas-al-congreso-no-han-reportado-nada/",
+    "title": "La plata se ve en la calle, pero no en la rendición de cuentas: 66,2 % de las candidaturas al Congreso no han reportado nada. - Transparencia por Colombia",
+    "published_at": "2026-03-04",
+    "status": "pending_classification",
+    "status_reason": "validated_by_http|no_match",
+    "candidate_confidence": 0,
+    "source_files": "data/added_manually/chatgpt_pro.md"
+  },
+  {
     "entry_id": "manual-13268341",
     "candidate_id": null,
     "source_name": "Infobae Com",
@@ -1050,20 +1078,6 @@
     "source_files": "data/added_manually/chatgpt_pro.md"
   },
   {
-    "entry_id": "manual-033fe94f",
-    "candidate_id": null,
-    "source_name": "Transparenciacolombia Org Co",
-    "source_tier": "institutional",
-    "source_type": "institutional-page",
-    "url": "https://transparenciacolombia.org.co/66-porciento-de-las-candidaturas-al-congreso-no-han-reportado-nada/",
-    "title": "66 Porciento De Las Candidaturas Al Congreso No Han Reportado Nada",
-    "published_at": null,
-    "status": "pending_classification",
-    "status_reason": "validated_by_http|no_match",
-    "candidate_confidence": 0,
-    "source_files": "data/added_manually/chatgpt_pro.md"
-  },
-  {
     "entry_id": "manual-75682018",
     "candidate_id": null,
     "source_name": "Consejo Nacional Electoral",
@@ -1154,7 +1168,7 @@
     "source_tier": "established-media",
     "source_type": "topic-page",
     "url": "https://www.elcolombiano.com/especiales/elecciones-2026/candidatos-y-propuestas",
-    "title": "Candidatos Elecciones 2026 y sus propuestas",
+    "title": "Candidatos y Propuestas",
     "published_at": null,
     "status": "pending_classification",
     "status_reason": "validated_by_http|no_match",
@@ -1406,7 +1420,7 @@
     "source_tier": "reference",
     "source_type": "webpage",
     "url": "https://www.elnuevosiglo.com.co/politica/las-propuestas-mas-osadas-de-los-candidatos-presidenciales",
-    "title": "Las Propuestas Mas Osadas De Los Candidatos Presidenciales",
+    "title": "Las propuestas más osadas y audaces de los candidatos presidenciales | El Nuevo Siglo",
     "published_at": null,
     "status": "pending_classification",
     "status_reason": "validated_by_http|no_match",
