@@ -1,0 +1,8 @@
+{
+  "status": "no_findings",
+  "updated_at": "2026-06-22T05:50:10-04:00",
+  "summary": "Sin promociones nuevas a intake formal; solo quedaron contextos post-electorales y de escrutinio.",
+  "notes": "La revision diaria quedo documentada en data/analysis/daily_source_reviews/2026-06-22.md y .csv con cuatro decisiones de incorporar_contexto sobre Abelardo de la Espriella, Ivan Cepeda, las reacciones de Paloma Valencia, Claudia Lopez y Sergio Fajardo, y el marco institucional del escrutinio. No se agregaron fuentes a sources.csv ni a data/added_manually.",
+  "checked_window_start": "2026-06-21T05:50:00-04:00",
+  "checked_window_end": "2026-06-22T05:50:10-04:00"
+}
