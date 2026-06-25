@@ -1,0 +1,8 @@
+{
+  "status": "no_findings",
+  "updated_at": "2026-06-25T05:51:58-04:00",
+  "summary": "Sin promociones nuevas a intake formal; quedaron cuatro contextos postelectorales y un descarte analitico.",
+  "notes": "La revision diaria quedo documentada en data/analysis/daily_source_reviews/2026-06-25.md y .csv con cuatro decisiones de incorporar_contexto sobre Ivan Cepeda, Abelardo de la Espriella y Paloma Valencia, y un no_incorporar para una columna de sintesis. No se agregaron fuentes a sources.csv ni a data/added_manually/. Las busquedas dirigidas no arrojaron una fuente autonoma reciente y suficientemente densa para Claudia Lopez, Sergio Fajardo o Luis Gilberto Murillo.",
+  "checked_window_start": "2026-06-24T05:50:00-04:00",
+  "checked_window_end": "2026-06-25T05:51:58-04:00"
+}
