@@ -2,15 +2,22 @@
 
 Proyecto base para investigar, estructurar y publicar hallazgos sobre las candidaturas presidenciales de Colombia en 2026.
 
+## Estado actual
+
+Desde el `2026-06-25`, la automatización diaria y la publicación automática quedaron retiradas porque el ciclo presidencial 2026 ya terminó.
+Los entrypoints de automatización fallan por defecto y solo aceptan ejecución explícita con `ALLOW_RETIRED_AUTOMATION=1` para trabajo archivístico o forense.
+
 ## Qué incluye
 
 - `pipeline` en `R` por etapas para ingestión, extracción estructurada, análisis por candidato, comparación transversal, redacción editorial y validación bloqueante.
 - `sitio estático` en `Quarto` para publicar fichas por candidato, comparaciones temáticas, cronología, fuentes y metodología.
 - `plantillas de inbox` para que una automatización diaria o un editor carguen nuevos hallazgos.
 - `capa contractual` en `config/`, `schemas/`, `prompts/`, `examples/` y `data/state/` para evolucionar hacia un sistema agentic y analítico por etapas.
-- `workflow` de publicación para `GitHub Pages`.
+- `workflow` de publicación manual para `GitHub Pages`.
 
 ## Flujo diario esperado
+
+Este flujo queda solo como referencia histórica. Ya no debe ejecutarse de manera desatendida.
 
 1. Crear o actualizar una carpeta en `data/inbox/YYYY-MM-DD/`.
 2. Llenar `sources.csv` y, cuando aplique, `source_texts/` con texto capturado o limpiado por fuente.
@@ -59,7 +66,8 @@ La forma correcta de pensar este proyecto es separar `fuente`, `artefacto públi
   Sirve para abrir el sitio en local, revisar cambios antes de publicar y conservar una versión visible del estado actual.
 - `gh-pages` es solo la rama de publicación.
   No es una rama de desarrollo. Su función es servir el sitio público en GitHub Pages desde la raíz de la rama.
-- GitHub Actions toma `main`, corre `Rscript scripts/run_daily_update.R` y publica a `gh-pages`.
+- GitHub Actions ya no publica automáticamente desde `main`.
+  Si alguna vez se requiere una republicación archivística, debe dispararse manualmente y con confirmación explícita.
   El sitio público no debe editarse manualmente en `gh-pages` salvo una intervención técnica puntual para destrabar Pages.
 - En estado normal no debe existir una `worktree` extra.
   Si alguna vez se usa una worktree para bootstrap o reparación de `gh-pages`, debe eliminarse al terminar.
@@ -68,7 +76,7 @@ En resumen:
 
 - desarrolla en `main`
 - revisa el render en `docs/`
-- deja que Actions publique a `origin/gh-pages`
+- usa publish manual solo si hace falta una republicación archivística
 - evita trabajar manualmente en `gh-pages`
 
 ## Dirección arquitectónica actual
@@ -110,7 +118,7 @@ Las fuentes multi-candidato o de contexto electoral no se promueven automáticam
 
 ## Verificación De Automatización
 
-`scripts/verify_daily_automation.R` es el checklist ejecutable de la corrida diaria. Revisa:
+`scripts/verify_daily_automation.R` era el checklist ejecutable de la corrida diaria. Revisa:
 
 - `validation_report.json`
 - `topic_id` vacío en claims públicos
@@ -121,25 +129,25 @@ Las fuentes multi-candidato o de contexto electoral no se promueven automáticam
 
 El script escribe JSON y Markdown en `data/automation/run_reports/YYYY-MM-DD.*`. Si hay bloqueos, sale con código distinto de cero para impedir commit/push automático. Con `--notify`, muestra una notificación local en macOS.
 
-`scripts/check_daily_automation_health.R` es el monitor posterior a la corrida. Revisa que exista el reporte del día, que no esté en `block`, que no esté obsoleto y que la bitácora diaria tenga Markdown y CSV. Está pensado para correr después de la automatización desatendida:
+`scripts/check_daily_automation_health.R` era el monitor posterior a la corrida. Revisa que exista el reporte del día, que no esté en `block`, que no esté obsoleto y que la bitácora diaria tenga Markdown y CSV. Está pensado para correr después de la automatización desatendida:
 
 ```bash
 Rscript scripts/check_daily_automation_health.R --date=YYYY-MM-DD --max-age-hours=30 --notify
 ```
 
-La automatización no debe trabajar directamente sobre el checkout principal del editor. Debe crear primero una worktree limpia desde `origin/main`:
+La automatización no debe trabajar directamente sobre el checkout principal del editor. Debía crear primero una worktree limpia desde `origin/main`:
 
 ```bash
 scripts/prepare_daily_automation_worktree.sh --date=YYYY-MM-DD
 ```
 
-La investigación, edición de fuentes y render se hacen dentro del `WORKTREE_PATH` que imprime ese comando. Al terminar, la misma worktree debe validarse, commitearse y empujarse a `main` con:
+La investigación, edición de fuentes y render se hacían dentro del `WORKTREE_PATH` que imprime ese comando. Al terminar, la misma worktree debía validarse, commitearse y empujarse a `main` con:
 
 ```bash
 scripts/finalize_daily_automation_worktree.sh --worktree WORKTREE_PATH --date=YYYY-MM-DD
 ```
 
-Este cierre vuelve a ejecutar `scripts/run_daily_update.R`, corre `scripts/verify_daily_automation.R`, hace `git push origin HEAD:main` solo si todo pasa, intenta fast-forward del checkout principal cuando está limpio y elimina la worktree/rama temporal. Si algo falla, la worktree queda disponible para inspección y no se publica.
+Ese cierre volvía a ejecutar `scripts/run_daily_update.R`, corría `scripts/verify_daily_automation.R`, hacía `git push origin HEAD:main` solo si todo pasaba, intentaba fast-forward del checkout principal cuando estaba limpio y eliminaba la worktree/rama temporal. Desde el `2026-06-25`, ese flujo quedó retirado por defecto.
 
 Checklist desatendido esperado:
 

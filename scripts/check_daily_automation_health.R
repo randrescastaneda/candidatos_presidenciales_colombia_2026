@@ -1,5 +1,16 @@
 args <- commandArgs(trailingOnly = TRUE)
 
+allow_retired_automation <- identical(Sys.getenv("ALLOW_RETIRED_AUTOMATION", unset = "0"), "1")
+if (!allow_retired_automation) {
+  stop(
+    paste(
+      "Daily automation is retired as of 2026-06-25 because the 2026 presidential cycle is over.",
+      "Set ALLOW_RETIRED_AUTOMATION=1 only for explicit archival or forensic work."
+    ),
+    call. = FALSE
+  )
+}
+
 suppressPackageStartupMessages({
   library(jsonlite)
 })

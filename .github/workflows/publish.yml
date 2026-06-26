@@ -1,17 +1,20 @@
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - feature/v1-monitor
+    inputs:
+      allow_archived_publish:
+        description: "Run a manual archival publish despite retired automation"
+        required: true
+        type: boolean
+        default: false
 
-name: Quarto Publish
+name: Quarto Publish (Archived)
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.allow_archived_publish == true }}
     runs-on: ubuntu-latest
     permissions:
       contents: read

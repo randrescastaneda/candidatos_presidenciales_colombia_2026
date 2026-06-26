@@ -14,6 +14,12 @@ EOF
 review_date="$(date +%F)"
 source_repo=""
 
+if [[ "${ALLOW_RETIRED_AUTOMATION:-0}" != "1" ]]; then
+  echo "Daily automation is retired as of 2026-06-25 because the 2026 presidential cycle is over." >&2
+  echo "Set ALLOW_RETIRED_AUTOMATION=1 only for explicit archival or forensic work." >&2
+  exit 1
+fi
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --date)
